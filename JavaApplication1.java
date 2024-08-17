@@ -31,19 +31,31 @@ public class JavaApplication1 {
             System.out.println("Total is " + total);
         }
 
-        
         System.out.println("-----------------");
-        int max=a[0];
-        
-        for (int i = 1;i <a.length; i++) {
-            if(a[i]>max){
-           max=a[i];
-            }
-            else{
+        int max = a[0];
+
+        //getting max value
+        for (int i = 1; i < a.length; i++) {
+            if (a[i] > max) {
+                max = a[i];
+            } else {
             }
         }
-        
-        System.out.println(max);
+
+        //getting duplicate
+        int duplicateVal = a[0];
+        for (int i = 0; i < a.length; i++) {
+            for (int j = i + 1; j < a.length; j++) {
+                if (a[i] == a[j]) {
+                    duplicateVal = a[i];
+                   
+                    break;  // Exit inner loop once a duplicate is found
+                }
+            }
+        }
+
+        System.out.println("Max value is " + max);
+        System.out.println("Duplicate value found " + duplicateVal);
 
     }
 
