@@ -9,24 +9,24 @@ package javaapplication1;
  * @author tharindumadhushan
  */
 public class sumOfTwoIntgers {
-    
-    public  static int getSum(int a,int b){
-     
+
+    public static int getSum(int a, int b) {
 
         int sum = a + b;
-        System.out.println("parameter "+sum);
+        System.out.println("parameter " + sum);
         return sum;
-        
+
     }
-    
-    public  String getDetails(){
-        String name="Tharindu";
-        int age=26;
-        return name +""+ age;
+
+    public String getDetails() {
+        String name = "Tharindu";
+        int age = 26;
+        return name + "" + age;
     }
-    
-    public static int getTotalMarks(int a,int b){
-            int totalMarks=a+b;
-            return totalMarks;
+
+    public static int getTotalMarks(int a, int b) {
+        int totalMarks = a + b;
+
+        return totalMarks;
     }
 }
