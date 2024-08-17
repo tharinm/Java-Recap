@@ -18,45 +18,26 @@ public class JavaApplication1 {
      */
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        int a[] = new int[5];
-        int total = 0;
+        int[][] numbers = new int[3][2];
 
-        for (int j = 0; j < a.length; j++) {
-            System.out.println("Enter values:");
-            int val = sc.nextInt();
-            a[j] = val;  // Storing the input value in the array
+        numbers[0][0] = 60;
+        numbers[0][1] = 20;
 
-            total = total + a[j];
-            System.out.println("Total is " + total);
-        }
+        numbers[1][0] = 30;
+        numbers[1][1] = 60;
 
-        System.out.println("-----------------");
-        int max = a[0];
+        numbers[2][0] = 70;
+        numbers[2][1] = 50;
 
-        //getting max value
-        for (int i = 1; i < a.length; i++) {
-            if (a[i] > max) {
-                max = a[i];
-            } else {
+        System.out.println("");
+        
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 2; j++) {
+                System.out.println(numbers[i][j]);
             }
         }
 
-        //getting duplicate
-        int duplicateVal = a[0];
-        for (int i = 0; i < a.length; i++) {
-            for (int j = i + 1; j < a.length; j++) {
-                if (a[i] == a[j]) {
-                    duplicateVal = a[i];
-                   
-                    break;  // Exit inner loop once a duplicate is found
-                }
-            }
-        }
-
-        System.out.println("Max value is " + max);
-        System.out.println("Duplicate value found " + duplicateVal);
-
+    
     }
 
     private static class doubel {
@@ -66,4 +47,4 @@ public class JavaApplication1 {
     }
 
 }
-Ï
+
