@@ -15,24 +15,30 @@ public class JavaApplication1 {
 
     public static void main(String[] args) {
 
-//        sumOfTwoIntgers SumOfTwoIntgers = new sumOfTwoIntgers();
-//
-//        sumOfTwoIntgers.getSum(4,9);
-//
-//     
-//
-//        String a = SumOfTwoIntgers.getDetails();
-//
-//        System.out.println("" + a);
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter Mark One");
-        int x = input.nextInt();
+        Man newMan = new Man();
 
-        System.out.println("Enter Mark two");
-        int y = input.nextInt();
+        newMan.createMan("Janith", "Arun", 34, "Male");
 
-        int totalOfMarks = sumOfTwoIntgers.getTotalMarks(x, y);
-
+//        newMan.fname="Tharindu";
+//        newMan.lname="Madhushan";
+//        newMan.gender="male";
+//        newMan.age=27;
+//        
+//        Man newMan1 = new Man();
+//        
+//        newMan1.fname="Amal";
+//        newMan1.lname="Madhwa";
+//        newMan1.gender="Male";
+//        newMan1.age=17;
+//        
+//        Man newMan2 = new Man();
+//        
+//        newMan2.fname="Amali";
+//        newMan2.lname="Madhu";
+//        newMan2.gender="Female";
+//        newMan2.age=13;
+        System.out.println("FirstName "+newMan.fname);
+         System.out.println("LastName "+newMan.lname);
       
     }
 
