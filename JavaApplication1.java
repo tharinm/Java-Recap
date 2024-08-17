@@ -26,16 +26,14 @@ public class JavaApplication1 {
 //        System.out.println("" + a);
         Scanner input = new Scanner(System.in);
         System.out.println("Enter Mark One");
-        int x=input.nextInt();
-        
-        
+        int x = input.nextInt();
+
         System.out.println("Enter Mark two");
-        int y=input.nextInt();
-        
-        
-        int totalOfMarks=sumOfTwoIntgers.getTotalMarks(x, y);
-        System.out.println("Total Marks is "+totalOfMarks );
-        
+        int y = input.nextInt();
+
+        int totalOfMarks = sumOfTwoIntgers.getTotalMarks(x, y);
+
+      
     }
 
 }
