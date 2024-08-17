@@ -9,8 +9,19 @@ package javaapplication1;
  * @author tharindumadhushan
  */
 public class Man {
-        String name="Kamal";
-        String address="Panaduta";
-        int number=34343434;
-        
+
+    String fname;
+    String lname;
+    int age;
+    String gender;
+
+    public void eat() {
+        String fullName;
+        System.out.println("Im eat");
+    }
+
+    public void walk() {
+        System.out.println("Im walk");
+    }
+
 }
