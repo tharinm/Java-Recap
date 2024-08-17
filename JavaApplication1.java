@@ -18,20 +18,19 @@ public class JavaApplication1 {
      */
     public static void main(String[] args) {
 
-//        Scanner sc = new Scanner(System.in);
-      int a[]={10,20,30,40,50};
-        
-       
-      int total=0;
-        
-      for(int i=0;i<a.length;i++){
-            total=total+a[i];
-        }
-      
-      System.out.println(total);
+        Scanner sc = new Scanner(System.in);
+        int a[] = new int[5];
+        int total = 0;
 
-        
-       
+        for (int j = 0; j < a.length; j++) {
+            System.out.println("Enter values:");
+            int val = sc.nextInt();
+            a[j] = val;  // Storing the input value in the array
+
+            total = total + a[j];
+            System.out.println("Total is " + total);
+        }
+
     }
 
     private static class doubel {
