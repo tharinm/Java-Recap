@@ -15,11 +15,11 @@ public class JavaApplication1 {
 
     public static void main(String[] args) {
 
-       sumOfTwoIntgers SumOfTwoIntgers=new sumOfTwoIntgers();
+        sumOfTwoIntgers SumOfTwoIntgers = new sumOfTwoIntgers();
 
-        int sum = sumOfTwoIntgers.getSum();
+        sumOfTwoIntgers.getSum(4,9);
 
-        System.out.println("sum" + sum);
+     
 
         String a = SumOfTwoIntgers.getDetails();
 
