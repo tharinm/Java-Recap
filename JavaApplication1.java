@@ -31,6 +31,20 @@ public class JavaApplication1 {
             System.out.println("Total is " + total);
         }
 
+        
+        System.out.println("-----------------");
+        int max=a[0];
+        
+        for (int i = 1;i <a.length; i++) {
+            if(a[i]>max){
+           max=a[i];
+            }
+            else{
+            }
+        }
+        
+        System.out.println(max);
+
     }
 
     private static class doubel {
