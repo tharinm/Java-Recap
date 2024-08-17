@@ -24,4 +24,14 @@ public class Man {
         System.out.println("Im walk");
     }
 
+    public void createMan(String fname, String lname, int age, String gender) {
+        this.fname = fname;
+        this.lname = lname;
+        this.age = age;
+        this.gender = gender;
+        
+//         System.out.println("FirstName "+fname);
+//         System.out.println("LastName "+lname);
+    }
+
 }
