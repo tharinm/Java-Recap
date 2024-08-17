@@ -24,4 +24,9 @@ public class sumOfTwoIntgers {
         int age=26;
         return name +""+ age;
     }
+    
+    public static int getTotalMarks(int a,int b){
+            int totalMarks=a+b;
+            return totalMarks;
+    }
 }
