@@ -13,12 +13,17 @@ import java.util.Scanner;
  */
 public class JavaApplication1 {
 
-   
-
     public static void main(String[] args) {
-     int sum = sumOfTwoIntgers.getSum();
-     
-        System.out.println("sum" +sum);
+
+       sumOfTwoIntgers SumOfTwoIntgers=new sumOfTwoIntgers();
+
+        int sum = sumOfTwoIntgers.getSum();
+
+        System.out.println("sum" + sum);
+
+        String a = SumOfTwoIntgers.getDetails();
+
+        System.out.println("" + a);
     }
 
 }

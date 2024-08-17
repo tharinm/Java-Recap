@@ -18,4 +18,10 @@ public class sumOfTwoIntgers {
         return sum;
         
     }
+    
+    public  String getDetails(){
+        String name="Tharindu";
+        int age=26;
+        return name +""+ age;
+    }
 }
