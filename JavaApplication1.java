@@ -13,62 +13,18 @@ import java.util.Scanner;
  */
 public class JavaApplication1 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
+    public static void sumofTwoIntegeres() {
+        int a = 100;
+        int b = 200;
 
-        int[][] numbers = new int[3][2];
+        int sum = a + b;
 
-        numbers[0][0] = 60;
-        numbers[0][1] = 20;
-
-        numbers[1][0] = 30;
-        numbers[1][1] = 60;
-
-        numbers[2][0] = 70;
-        numbers[2][1] = 50;
-
-        System.out.println("------------");
-
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 2; j++) {
-                System.out.println(numbers[i][j]);
-            }
-        }
-
-        System.out.println("------------");
-
-        int sum = 0;
-        for (int[] shortArray : numbers) {
-            for (int a : shortArray) {
-                sum = sum + a;
-            }
-            System.out.println("Total " + sum);
-        }
-
-        
-
-        System.out.println("------------");
-
-        int max = 0;
-        for (int[] shortArray : numbers) {
-            for (int a : shortArray) {
-
-                if (a > max) {
-                    max = a;
-                }
-            }
-           System.out.println("max "+ max);
-        }
-     
+        System.out.println("Sum " +sum);
 
     }
 
-    private static class doubel {
-
-        public doubel() {
-        }
+    public static void main(String[] args) {
+        sumofTwoIntegeres();
     }
 
 }
