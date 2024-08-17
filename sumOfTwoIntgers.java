@@ -27,6 +27,13 @@ public class sumOfTwoIntgers {
     public static int getTotalMarks(int a, int b) {
         int totalMarks = a + b;
 
+        if (totalMarks > 70) {
+            System.out.println("Total Marks is " + totalMarks + " You are pass");
+        } else {
+            System.out.println("Total Marks is " + totalMarks + " Sorry You fail");
+        }
+
         return totalMarks;
+
     }
 }

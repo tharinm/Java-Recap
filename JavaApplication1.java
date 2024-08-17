@@ -33,12 +33,7 @@ public class JavaApplication1 {
 
         int totalOfMarks = sumOfTwoIntgers.getTotalMarks(x, y);
 
-        if (totalOfMarks > 70) {
-            System.out.println("Total Marks is " + totalOfMarks + " You are pass");
-        }
-        {
-            System.out.println("Total Marks is " + totalOfMarks + " Sorry You fail");
-        }
+      
     }
 
 }
