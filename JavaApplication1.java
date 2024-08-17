@@ -15,15 +15,27 @@ public class JavaApplication1 {
 
     public static void main(String[] args) {
 
-       sumOfTwoIntgers SumOfTwoIntgers=new sumOfTwoIntgers();
-
-        int sum = sumOfTwoIntgers.getSum();
-
-        System.out.println("sum" + sum);
-
-        String a = SumOfTwoIntgers.getDetails();
-
-        System.out.println("" + a);
+//        sumOfTwoIntgers SumOfTwoIntgers = new sumOfTwoIntgers();
+//
+//        sumOfTwoIntgers.getSum(4,9);
+//
+//     
+//
+//        String a = SumOfTwoIntgers.getDetails();
+//
+//        System.out.println("" + a);
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter Mark One");
+        int x=input.nextInt();
+        
+        
+        System.out.println("Enter Mark two");
+        int y=input.nextInt();
+        
+        
+        int totalOfMarks=sumOfTwoIntgers.getTotalMarks(x, y);
+        System.out.println("Total Marks is "+totalOfMarks );
+        
     }
 
 }

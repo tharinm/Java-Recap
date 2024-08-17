@@ -10,11 +10,11 @@ package javaapplication1;
  */
 public class sumOfTwoIntgers {
     
-    public  static int getSum(){
-         int a = 100;
-        int b = 20;
+    public  static int getSum(int a,int b){
+     
 
         int sum = a + b;
+        System.out.println("parameter "+sum);
         return sum;
         
     }
@@ -23,5 +23,10 @@ public class sumOfTwoIntgers {
         String name="Tharindu";
         int age=26;
         return name +""+ age;
+    }
+    
+    public static int getTotalMarks(int a,int b){
+            int totalMarks=a+b;
+            return totalMarks;
     }
 }
