@@ -16,7 +16,9 @@ public class JavaApplication1 {
    
 
     public static void main(String[] args) {
-      sumOfTwoIntgers.getSum();
+     int sum = sumOfTwoIntgers.getSum();
+     
+        System.out.println("sum" +sum);
     }
 
 }

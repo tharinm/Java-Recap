@@ -10,12 +10,12 @@ package javaapplication1;
  */
 public class sumOfTwoIntgers {
     
-    public  static void getSum(){
+    public  static int getSum(){
          int a = 100;
         int b = 20;
 
         int sum = a + b;
-
-        System.out.println("sum = "+sum);
+        return sum;
+        
     }
 }
