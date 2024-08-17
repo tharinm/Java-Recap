@@ -15,37 +15,13 @@ public class JavaApplication1 {
 
     public static void main(String[] args) {
 
-        Man newMan = new Man();
+        Box b = new Box(10,34,23,2);
+        
+        System.out.println(""+b.findArea());
 
-        newMan.createMan("Janith", "Arun", 34, "Male");
-
-        Man newMan1 = new Man();
-
-        newMan1.createMan("Rukshan", "Malad", 14, "Male");
-
-//        newMan.fname="Tharindu";
-//        newMan.lname="Madhushan";
-//        newMan.gender="male";
-//        newMan.age=27;
-//        
-//        Man newMan1 = new Man();
-//        
-//        newMan1.fname="Amal";
-//        newMan1.lname="Madhwa";
-//        newMan1.gender="Male";
-//        newMan1.age=17;
-//        
-//        Man newMan2 = new Man();
-//        
-//        newMan2.fname="Amali";
-//        newMan2.lname="Madhu";
-//        newMan2.gender="Female";
-//        newMan2.age=13;
-        System.out.println("FirstName " + newMan.fname);
-        System.out.println("LastName " + newMan.lname);
-
-        System.out.println("FirstName " + newMan1.fname);
-        System.out.println("LastName " + newMan1.lname);
+        System.out.println("" + b.color);
+        
+        
 
     }
 
