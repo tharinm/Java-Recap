@@ -13,18 +13,10 @@ import java.util.Scanner;
  */
 public class JavaApplication1 {
 
-    public static void sumofTwoIntegeres() {
-        int a = 100;
-        int b = 200;
-
-        int sum = a + b;
-
-        System.out.println("Sum " +sum);
-
-    }
+   
 
     public static void main(String[] args) {
-        sumofTwoIntegeres();
+      sumOfTwoIntgers.getSum();
     }
 
 }
