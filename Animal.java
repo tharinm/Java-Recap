@@ -8,10 +8,12 @@ package javaapplication1;
  *
  * @author tharindumadhushan
  */
-public class Dog extends Animals{
+abstract public class Animal {
+
+    public abstract void makeSound();
     
-      @Override
-      public void Sound() {
-        System.out.println("Barking");
+    
+    public void eat() {
+        System.out.println("Eating");
     }
 }

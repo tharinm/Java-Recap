@@ -8,10 +8,11 @@ package javaapplication1;
  *
  * @author tharindumadhushan
  */
-public class Dog extends Animals{
-    
-      @Override
-      public void Sound() {
-        System.out.println("Barking");
+public class Parrot extends Animal {
+
+    @Override
+    public void makeSound() {
+        System.out.println("tr tr tr tr tr ttr ");
     }
+
 }
