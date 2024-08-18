@@ -15,12 +15,11 @@ public class JavaApplication1 {
 
     public static void main(String[] args) {
 
-        User u1 = new User();
-
-         u1.setName("Tharind");
-      
-        System.out.println("username " +u1.getName());
-
+           Vehicle v1=new Vehicle();
+           Vehicle v2=new Van();  //upcasting
+           
+           Van van=(Van)v2;
+           
     }
 
 }
