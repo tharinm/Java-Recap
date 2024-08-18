@@ -18,8 +18,17 @@ public class JavaApplication1 {
            Vehicle v1=new Vehicle();
            Vehicle v2=new Van();  //upcasting
            
-           Van van=(Van)v2;
+           Van van=(Van)v2; //downcast
            
+           Animals a1=new Animals();
+           
+           a1.Sound();
+           
+           Animals d1=new Elephant();
+           d1.Sound();
+           
+           Elephant d2=new Elephant();
+           d2.Sound();
     }
 
 }

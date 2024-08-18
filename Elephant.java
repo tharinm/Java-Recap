@@ -8,10 +8,9 @@ package javaapplication1;
  *
  * @author tharindumadhushan
  */
-public class Dog extends Animals{
-    
-      @Override
-      public void Sound() {
-        System.out.println("Barking");
+public class Elephant extends Animals {
+
+    public void Sound() {
+        System.out.println("Tusker shout");
     }
 }

@@ -10,7 +10,7 @@ package javaapplication1;
  */
 public class Animals {
  
-    public static void Sound(){
+    public  void Sound(){
         System.out.println("Shout Animal");
     }
 }
