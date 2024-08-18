@@ -22,11 +22,27 @@ public class JavaApplication1 {
         fruits.add("Grapes");
 
         System.out.println(" " + fruits);
-        
-        fruits.add(0,"Papaya");
-        
+
+        fruits.add(0, "Papaya");
+
         System.out.println(" " + fruits);
         System.out.println(" " + fruits.get(3));
+
+        System.out.println(" " + fruits.set(1, "Watermelon"));
+        System.out.println("---------------");
+        System.out.println(" " + fruits);
+
+        fruits.remove(3);
+        System.out.println(" " + fruits);
+
+        System.out.println("---------------");
+        System.out.println("Size " + fruits.size());
+        
+        System.out.println("---------------");
+        
+        for(int i=0;i<fruits.size();i++){
+            System.out.println(" " + fruits.get(i));
+        }
 
     }
 
