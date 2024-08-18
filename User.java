@@ -14,17 +14,44 @@ public class User {
     private String age;
     private String password;
     
-    //Getters
-    
-    public String getName(){
-    
+//    //Getters
+//    
+//    public String getName(){
+//    
+//        return name;
+//    }
+//    
+//    //setters
+//    public void setName(String name){
+//        
+//        this.name=name;
+//        
+//    }
+
+    public String getName() {
         return name;
     }
-    
-    //setters
-    public void setName(String name){
-        
-        this.name=name;
-        
+
+    public void setName(String name) {
+        this.name = name;
     }
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+    
+    
+    
 }

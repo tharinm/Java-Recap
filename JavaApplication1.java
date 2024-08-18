@@ -17,9 +17,9 @@ public class JavaApplication1 {
 
         User u1 = new User();
 
-      u1.setName("Tharind");
+         u1.setName("Tharind");
       
-        System.out.println("username" +u1.getName());
+        System.out.println("username " +u1.getName());
 
     }
 
