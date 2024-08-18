@@ -15,14 +15,11 @@ public class JavaApplication1 {
 
     public static void main(String[] args) {
 
-        Box b = new Box(10,34,23,2);
+       
+        Van van=new Van();
         
-        System.out.println(""+b.findArea());
-
-        System.out.println("" + b.color);
-        
-        
-
+        van.drive();
+        van.horn();
     }
 
 }
