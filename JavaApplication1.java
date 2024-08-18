@@ -6,6 +6,7 @@ package javaapplication1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 
 /**
@@ -37,12 +38,18 @@ public class JavaApplication1 {
 
         System.out.println("---------------");
         System.out.println("Size " + fruits.size());
-        
+
         System.out.println("---------------");
-        
-        for(int i=0;i<fruits.size();i++){
+
+        for (int i = 0; i < fruits.size(); i++) {
             System.out.println(" " + fruits.get(i));
         }
+
+        System.out.println("---------------");
+        Collections.sort(fruits);
+        
+        System.out.println(" SORTED "+fruits);
+               
 
     }
 
