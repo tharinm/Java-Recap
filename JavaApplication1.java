@@ -20,6 +20,11 @@ public class JavaApplication1 {
         
         van.drive();
         van.horn();
+        
+        Car newC=new Car();
+        
+        newC.drive();
+     
     }
 
 }
