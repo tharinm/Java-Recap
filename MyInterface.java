@@ -10,6 +10,10 @@ package javaapplication1;
  */
 public interface MyInterface {
    
+    String name="Jay vibes"; //this get as final variable in the interface can not re assign
+    
+//    name="Nozse"
+    
     public void makeSound();
     public void makeEat();
 }

@@ -32,6 +32,7 @@ public class JavaApplication1 {
         v2.makeEat();
         v2.makeSound();
         
+        
     }
 
 }

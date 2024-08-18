@@ -10,9 +10,11 @@ package javaapplication1;
  */
 public class Fish implements MyInterface {
 
-
     @Override
     public void makeSound() {
+        WaterLevel waterLevel = WaterLevel.High;
+        System.out.println("WaterLevel "+waterLevel);
+              
         System.out.println("Swim");
     }
 
@@ -20,7 +22,5 @@ public class Fish implements MyInterface {
     public void makeEat() {
         System.out.println("Fast");
     }
-    
-    
-    
+
 }
