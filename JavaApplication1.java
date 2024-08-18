@@ -15,16 +15,12 @@ public class JavaApplication1 {
 
     public static void main(String[] args) {
 
-       
-        Van van=new Van();
-        
-        van.drive();
-        van.horn();
-        
-        Car newC=new Car();
-        
-        newC.drive();
-     
+        User u1 = new User();
+
+      u1.setName("Tharind");
+      
+        System.out.println("username" +u1.getName());
+
     }
 
 }
