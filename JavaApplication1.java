@@ -15,11 +15,11 @@ public class JavaApplication1 {
 
     public static void main(String[] args) {
 
-       
-        Van van=new Van();
-        
-        van.drive();
-        van.horn();
+           Vehicle v1=new Vehicle();
+           Vehicle v2=new Van();  //upcasting
+           
+           Van van=(Van)v2;
+           
     }
 
 }
