@@ -13,8 +13,8 @@ public class Fish implements MyInterface {
     @Override
     public void makeSound() {
         WaterLevel waterLevel = WaterLevel.High;
-        System.out.println("WaterLevel "+waterLevel);
-              
+        System.out.println("WaterLevel " + waterLevel);
+
         System.out.println("Swim");
     }
 

@@ -4,6 +4,7 @@
  */
 package javaapplication1;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -14,25 +15,19 @@ import java.util.Scanner;
 public class JavaApplication1 {
 
     public static void main(String[] args) {
-//           Vehicle v1=new Vehicle();
-//           Vehicle v2=new Van();  //upcasting
-//           
-//           Van van=(Van)v2; //downcast
-//           
-//           Animals a1=new Animals();
-//           
-//           a1.Sound();
-//           
-//           Animals d1=new Elephant();
-//           d1.Sound();
-//           
-//           Elephant d2=new Elephant();
-//           d2.Sound();
-        Fish  v2=new Fish ();
-        v2.makeEat();
-        v2.makeSound();
+
+        ArrayList<String> fruits = new ArrayList<>();
+        fruits.add("Mango");
+        fruits.add("Banand");
+        fruits.add("Grapes");
+
+        System.out.println(" " + fruits);
         
+        fruits.add(0,"Papaya");
         
+        System.out.println(" " + fruits);
+        System.out.println(" " + fruits.get(3));
+
     }
 
 }
