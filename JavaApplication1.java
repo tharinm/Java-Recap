@@ -14,7 +14,6 @@ import java.util.Scanner;
 public class JavaApplication1 {
 
     public static void main(String[] args) {
-
 //           Vehicle v1=new Vehicle();
 //           Vehicle v2=new Van();  //upcasting
 //           
@@ -29,9 +28,10 @@ public class JavaApplication1 {
 //           
 //           Elephant d2=new Elephant();
 //           d2.Sound();
-               Parrot p1=new Parrot();
-               
-               p1.makeSound();
+        Fish  v2=new Fish ();
+        v2.makeEat();
+        v2.makeSound();
+        
     }
 
 }
