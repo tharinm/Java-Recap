@@ -47,9 +47,13 @@ public class JavaApplication1 {
 
         System.out.println("---------------");
         Collections.sort(fruits);
+
+        System.out.println(" SORTED " + fruits);
+
+        System.out.println("---------------");
+        Collections.sort(fruits, Collections.reverseOrder());
         
-        System.out.println(" SORTED "+fruits);
-               
+        System.out.println(" Reversed " + fruits);
 
     }
 
