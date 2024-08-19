@@ -7,6 +7,7 @@ package javaapplication1;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -46,6 +47,16 @@ public class JavaApplication1 {
         System.out.println("ages " + ages);
         ages.addFirst(70);
         System.out.println("ages " + ages);
+
+        System.out.println("---------------------");
+
+        HashMap<String, String> schoolClass = new HashMap<String, String>();
+
+        schoolClass.put("Kamal", "11-B");
+        schoolClass.put("Aamal", "10-C");
+        schoolClass.put("Damal", "13-A");
+
+        System.out.println(" "+schoolClass.size());
 
     }
 
