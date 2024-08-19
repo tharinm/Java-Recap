@@ -6,6 +6,9 @@ package javaapplication1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.Scanner;
 
 /**
@@ -16,33 +19,44 @@ public class JavaApplication1 {
 
     public static void main(String[] args) {
 
-        ArrayList<String> fruits = new ArrayList<>();
-        fruits.add("Mango");
-        fruits.add("Banand");
-        fruits.add("Grapes");
+        User u1 = new User("Tharindu", "12", "1212");
+        User u2 = new User("Chamal", "12", "1212");
+        User u3 = new User("Thamindu", "12", "1212");
 
-        System.out.println(" " + fruits);
+        ArrayList<User> users = new ArrayList<>();
+        users.add(u1);
+        users.add(u2);
+        users.add(u3);
+//        System.out.println("" +   u2.getName());
 
-        fruits.add(0, "Papaya");
+        for (int i = 0; i < users.size(); i++) {
+            System.out.println("User name " + users.get(i).getName());
+            System.out.println("User name " + users.get(i).getAge());
 
-        System.out.println(" " + fruits);
-        System.out.println(" " + fruits.get(3));
-
-        System.out.println(" " + fruits.set(1, "Watermelon"));
-        System.out.println("---------------");
-        System.out.println(" " + fruits);
-
-        fruits.remove(3);
-        System.out.println(" " + fruits);
-
-        System.out.println("---------------");
-        System.out.println("Size " + fruits.size());
-        
-        System.out.println("---------------");
-        
-        for(int i=0;i<fruits.size();i++){
-            System.out.println(" " + fruits.get(i));
         }
+
+        System.out.println("---------------------");
+
+        LinkedList<Integer> ages = new LinkedList<>();
+
+        ages.add(30);
+        ages.add(20);
+        ages.add(40);
+        ages.add(50);
+
+        System.out.println("ages " + ages);
+        ages.addFirst(70);
+        System.out.println("ages " + ages);
+
+        System.out.println("---------------------");
+
+        HashMap<String, String> schoolClass = new HashMap<String, String>();
+
+        schoolClass.put("Kamal", "11-B");
+        schoolClass.put("Aamal", "10-C");
+        schoolClass.put("Damal", "13-A");
+
+        System.out.println(" "+schoolClass.size());
 
     }
 
