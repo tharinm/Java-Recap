@@ -17,43 +17,20 @@ public class JavaApplication1 {
 
     public static void main(String[] args) {
 
-        ArrayList<String> fruits = new ArrayList<>();
-        fruits.add("Mango");
-        fruits.add("Banand");
-        fruits.add("Grapes");
+        User u1 = new User("Tharindu", "12", "1212");
+        User u2 = new User("Chamal", "12", "1212");
+        User u3 = new User("Thamindu", "12", "1212");
 
-        System.out.println(" " + fruits);
+        ArrayList<User> users = new ArrayList<>();
+        users.add(u1);
+        users.add(u2);
+        users.add(u3);
 
-        fruits.add(0, "Papaya");
+        for (int i = 0; i < users.size(); i++) {
+            System.out.println("User name " + users.get(i).getName());
+            System.out.println("User name " + users.get(i).getAge());
 
-        System.out.println(" " + fruits);
-        System.out.println(" " + fruits.get(3));
-
-        System.out.println(" " + fruits.set(1, "Watermelon"));
-        System.out.println("---------------");
-        System.out.println(" " + fruits);
-
-        fruits.remove(3);
-        System.out.println(" " + fruits);
-
-        System.out.println("---------------");
-        System.out.println("Size " + fruits.size());
-
-        System.out.println("---------------");
-
-        for (int i = 0; i < fruits.size(); i++) {
-            System.out.println(" " + fruits.get(i));
         }
-
-        System.out.println("---------------");
-        Collections.sort(fruits);
-
-        System.out.println(" SORTED " + fruits);
-
-        System.out.println("---------------");
-        Collections.sort(fruits, Collections.reverseOrder());
-        
-        System.out.println(" Reversed " + fruits);
 
     }
 
